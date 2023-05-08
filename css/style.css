@@ -444,6 +444,7 @@ img {
 .text-description-box-card {
     border: 1px solid #E7E9FC;
     border-top: none;
+    margin-bottom: 8px;
 }
 
 .text-title-description-card {
@@ -454,7 +455,8 @@ img {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-light);
     background-color: var(--primary-text-color-theme-dark);
-    padding: 32px 0px 8px 16px;
+    padding: 32px 16px;
+    /* padding: 32px 0px 8px 16px; */
 }
 
 .text-description-card {
