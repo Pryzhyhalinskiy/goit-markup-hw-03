@@ -15,42 +15,41 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<!-- HEADER -->
 
 <body>
     <!-- HEADER -->
     <header class="page-header">
         <div class="container page-header-container">
             <nav class="page-nav list">
-                <a class="link logo" href="./index.html">WEB<span class="link logo-studio">Studio</span></a>
+                <a class="link logo logo-header" href="./index.html">WEB<span class="link logo-studio">Studio</span></a>
                 <ul class="list menu-nav">
-                    <li class="menu-item"><a class="link menu-link" href="./index.html">Studio</a></li>
-                    <li class="menu-item"><a class="link menu-link" href="./portfolio.html">Portfolio</a></li>
-                    <li class="menu-item"><a class="link menu-link" href="">Contacts</a></li>
+                    <li class="menu-item-nav"><a class="link menu-link" href="./index.html">Studio</a></li>
+                    <li class="menu-item-nav"><a class="link menu-link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="menu-item-nav"><a class="link menu-link" href="">Contacts</a></li>
                 </ul>
             </nav>
 
             <address class="page-nav address-item">
                 <ul class="list menu-nav">
-                    <li class="menu-item"><a class="link contact mail"
+                    <li class="menu-item-contact"><a class="link contact mail"
                             href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="menu-item"><a class="link contact mail" href="tel:+110001111111">+11 (000)
+                    <li class="menu-item-contact"><a class="link contact mail" href="tel:+110001111111">+11 (000)
                             111-11-11</a>
                     </li>
                 </ul>
             </address>
         </div>
     </header>
-    <!-- HEADER -->
+
     <main>
-    <!-- HERO -->
+        <!-- HERO -->
         <section class="page-hero">
-            <div class="container main-title">
+            <div class="container">
                 <h1 class="main-title">Effective Solutions for Your Business</h1>
                 <button class="modal-btn" type="button">Order Service</button>
             </div>
         </section>
-    <!-- STRATEGY -->
+        <!-- STRATEGY -->
         <section class="description-strategy-sections">
             <div class="container">
                 <h2 class="text-title-strategy" hidden>Cтратегії розвитку</h2>
@@ -65,21 +64,24 @@
 
                     <li class="menu-item-strategy">
                         <h3 class="text-title-description-strategy">Punctuality</h3>
-                        <p class="text-description-strategy">Bring the key message to the brand's audience for the best price
+                        <p class="text-description-strategy">Bring the key message to the brand's audience for the best
+                            price
                             within
                             the shortest possible
                             time.</p>
                     </li>
                     <li class="menu-item-strategy">
                         <h3 class="text-title-description-strategy">Diligence</h3>
-                        <p class="text-description-strategy">Research and confirm brands that present the strongest digital
+                        <p class="text-description-strategy">Research and confirm brands that present the strongest
+                            digital
                             growth
                             opportunities and minimize
                             risk.</p>
                     </li>
                     <li class="menu-item-strategy">
                         <h3 class="text-title-description-strategy">Technologies</h3>
-                        <p class="text-description-strategy">Design practice focused on digital experiences. We bring forth a
+                        <p class="text-description-strategy">Design practice focused on digital experiences. We bring
+                            forth a
                             deep
                             passion for
                             problem-solving.</p>
@@ -87,63 +89,79 @@
                 </ul>
             </div>
         </section>
+        <!-- WORK -->
         <section class="description-work-sections">
             <div class="container">
                 <!-- Section 2 What are we doing-->
-                <h2 class="text-title-strategy container">What are we doing</h2>
-                <ul class="list container">
-                    <li class="menu-item"><img src="./images/what-are-we-doing/what-are-we-doing-1.jpg"
+                <h2 class="text-title-strategy">What are we doing</h2>
+                <ul class="list third">
+                    <li class="menu-item-work"><img src="./images/what-are-we-doing/what-are-we-doing-1.jpg"
                             alt="фото планшета" width="360" height="300">
                     </li>
-                    <li class="menu-item"><img src="./images/what-are-we-doing/what-are-we-doing-2.jpg"
+                    <li class="menu-item-work"><img src="./images/what-are-we-doing/what-are-we-doing-2.jpg"
                             alt="фото меседжера з декількома екранами" width="360" height="300">
                     </li>
-                    <li class="menu-item"><img src="./images/what-are-we-doing/what-are-we-doing-3.jpg"
+                    <li class="menu-item-work"><img src="./images/what-are-we-doing/what-are-we-doing-3.jpg"
                             alt="фото синхронізації екрана смартфона з ноутбуком" width="360" height="300">
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="description-team-sections container">
+        <!-- OUR TEAM -->
+        <section class="description-team-sections">
             <div class="container">
                 <!-- Section 3 Our Team-->
                 <h2 class="text-title-strategy">Our Team</h2>
-                <ul class="list">
+                <ul class="list team-list">
                     <li class="menu-item-team">
                         <img src="./images/our-team/our-team-mark-guerrero.jpg" alt="фото співробітника" width="264"
                             height="260">
-                        <h3 class="text-title-description">Mark Guerrero</h3>
-                        <p class="text-description">Product Designer</p>
+                        <div class="menu-item-team-box">
+                            <h3 class="text-title-description">Mark Guerrero</h3>
+                            <p class="text-description">Product Designer</p>
+                        </div>
                     </li>
                     <li class="menu-item-team">
                         <img src="./images/our-team/our-team-tom-ford.jpg" alt="фото співробітника" width="264"
                             height="260">
-                        <h3 class="text-title-description">Tom Ford</h3>
-                        <p class="text-description">Frontend Developer</p>
+                        <div class="menu-item-team-box">
+                            <h3 class="text-title-description">Tom Ford</h3>
+                            <p class="text-description">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="menu-item-team">
                         <img src="./images/our-team/our-team-camila-garcia.jpg" alt="фото співробітника" width="264"
                             height="260">
-                        <h3 class="text-title-description">Camila Garcia</h3>
-                        <p class="text-description">Marketing</p>
+                        <div class="menu-item-team-box">
+                            <h3 class="text-title-description">Camila Garcia</h3>
+                            <p class="text-description">Marketing</p>
+                        </div>
                     </li>
                     <li class="menu-item-team">
                         <img src="./images/our-team/our-team-daniel-wilson.jpg" alt="фото співробітника" width="264"
                             height="260">
-                        <h3 class="text-title-description">Daniel Wilson</h3>
-                        <p class="text-description">UI Designer</p>
+                        <div class="menu-item-team-box">
+                            <h3 class="text-title-description">Daniel Wilson</h3>
+                            <p class="text-description">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
     <!-- FOOTER -->
-    <footer class="footer-title container">
-        <div class="container"></div>
-            <a class="link logo" href="./index.html">WEB<span class="logo-studio-footer">Studio</span></a>
-            <p class="text-description-footer">Increase the flow of customers and sales for your business with digital
-            marketing &
-            growth solutions.</p>
+    <footer class="footer-title">
+        <div class="container">
+            <div class="logo-footer">
+                <a class="link logo" href="./index.html">WEB<span
+                        class="logo-studio-footer">Studio</span></a>
+            </div>
+            <div class="text-description-footer-item">
+                <p class="text-description-footer">Increase the flow of customers and sales for your business with
+                    digital
+                    marketing &
+                    growth solutions.</p>
+            </div>
         </div>
     </footer>
 </body>
