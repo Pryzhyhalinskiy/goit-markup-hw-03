@@ -314,7 +314,6 @@ img {
 
 .menu-item-team-box {
     padding: 32px 16px 32px 16px;
-
 }
 
 .text-title-description {
@@ -347,7 +346,7 @@ img {
 .footer-title {
     background: var(--secondary-text-color-theme-light);
     padding: 100px 0 100px 0;
-    }
+}
 
 .logo-footer {
     display: inline-block;
@@ -417,11 +416,14 @@ img {
     color: var(--primary-text-color-theme-dark);
     background: var(--accent-color);
 }
+
 .filter-btn:hover {
     border: 1px solid #e7e9fc;
+    border: 1px solid transparent
 }
+
 .filter-btn:focus {
-    border: 1px solid transparent; 
+    border: 1px solid transparent;
 }
 
 
@@ -430,21 +432,24 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
+
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr 1fr; */
     /* grid-row-gap: 48px; */
-    /* grid-column-gap: 24px; */ 
+    /* grid-column-gap: 24px; */
     /* padding-bottom: 120px; */
-    
     /* gap: 24px; */
-    
+}
+
+.portfolio-card-container {
+    width: calc((100% - 48px) / 3);
 }
 
 .text-description-box-card {
     border: 1px solid #E7E9FC;
     border-top: none;
-    margin-bottom: 8px;
+    padding: 32px 16px
+    /* margin-bottom: 8px; */
 }
 
 .text-title-description-card {
@@ -455,7 +460,8 @@ img {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-light);
     background-color: var(--primary-text-color-theme-dark);
-    padding: 32px 16px;
+    margin-bottom: 8px
+    /* padding: 32px 16px; */
     /* padding: 32px 0px 8px 16px; */
 }
 
