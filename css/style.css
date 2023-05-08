@@ -49,6 +49,7 @@ img {
 }
 
 /* CONTAINER*/
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -106,6 +107,7 @@ img {
     text-transform: uppercase;
     color: var(--secondary-text-color-theme-light);
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .menu-nav {
