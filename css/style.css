@@ -66,8 +66,8 @@ img {
 .page-header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     /* padding-left: 156px;
     padding-right: 156px; */
     /*background-color: #404BBF;*/
