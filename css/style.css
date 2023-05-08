@@ -61,6 +61,8 @@ img {
 /* ==========HEADER========== */
 .page-header {
     border-bottom: 1px solid #E7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-header-container {
@@ -89,12 +91,12 @@ img {
     text-transform: uppercase;
     color: var(--accent-color-btn);
     text-decoration: none;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .logo-header {
     margin-right: 76px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .logo-studio {
@@ -107,7 +109,7 @@ img {
     text-transform: uppercase;
     color: var(--secondary-text-color-theme-light);
     text-decoration: none;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .menu-nav {
