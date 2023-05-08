@@ -128,6 +128,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-light);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* «C4» Інтерактивні елементи (кнопки і посилання),при наведенні мишкою або фокусі з клавіатури, мають активний стан, 
