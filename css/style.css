@@ -51,8 +51,8 @@ img {
 /* CONTAINER*/
 .container {
     width: 1158px;
-    padding: 0 15px 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* ==========/COMPONENTS==========*/
@@ -88,12 +88,12 @@ img {
     text-transform: uppercase;
     color: var(--accent-color-btn);
     text-decoration: none;
-
+    padding: 24px 0;
 }
 
 .logo-header {
     margin-right: 76px;
-    padding: 24px 0 24px 0;
+    padding: 24px 0;
 }
 
 .logo-studio {
